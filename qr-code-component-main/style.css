@@ -58,9 +58,9 @@ body {
     border-radius: 15px;
 }
 
-@media (max-width: 375px) {
-}
-
-@media (max-width: 1440px) {
+@media (max-height: 690px) {
+    .attribution {
+        position: static;
+    }
 }
 
